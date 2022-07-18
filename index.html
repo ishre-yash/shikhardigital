@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>yusho</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/tailwind.css" />
+  </head>
+  <body class="bg-white">
+    <!-- Navbar -->
+    <nav class="fixed z-50 w-full bg-white shadow-md">
+      <div
+        class="container mx-auto p-6 lg:flex lg:items-center lg:justify-between"
+      >
+        <div class="flex items-center justify-between">
+          <a>
+            <img class="w-32" src="/assets/img/yusho logo.svg" alt="yusho logo"
+          /></a>
+
+          <!-- Mobile menu button -->
+          <div class="flex lg:hidden">
+            <button
+              type="button"
+              class="rounded border border-sky-600 bg-sky-500 p-1 px-2 text-white shadow-xl"
+              aria-label="toggle menu"
+              id="menu-button"
+            >
+              <svg viewBox="0 0 24 24" class="h-6 w-6 fill-current">
+                <path
+                  fill-rule="evenodd"
+                  d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
+                ></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="mt-4 flex hidden flex-col space-y-4 text-base font-semibold capitalize text-[#0b315e] lg:-mx-6 lg:mt-0 lg:block lg:flex-row lg:space-y-0"
+          id="menu"
+        >
+          <a class="mt-4 hover:text-sky-500 lg:px-6" href="#Home">Home</a>
+          <a class="hover:text-sky-500 lg:px-6" href="#Services">Services</a>
+          <a class="hover:text-sky-500 lg:px-6" href="#Blog">Blog</a>
+          <a class="hover:text-sky-500 lg:px-6" href="#Testimonials"
+            >Testimonials</a
+          >
+          <a class="hover:text-sky-500 lg:px-6" href="#Connect">Contact Us</a>
+        </div>
+      </div>
+    </nav>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
