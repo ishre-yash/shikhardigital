@@ -16,7 +16,7 @@ function NavLink({ name, link }) {
 }
 
 function Index() {
-  const [LinkName, setLinkName] = useState([
+  const [LinkName] = useState([
     { name: "Home", link: "#home" },
     { name: "Services", link: "#services" },
     { name: "Blog", link: "#Blog" },
