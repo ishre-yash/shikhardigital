@@ -63,12 +63,13 @@ function Faq() {
                   <svg
                     className={`${
                       f.open ? "rotate-45" : "rotate-0"
-                    } transition  duration-150`}
+                    } transition  duration-150 fill-current text-black dark:text-white`}
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
                     height="24"
                     viewBox="0 0 24 24"
-                    stroke="#1d1d1f"
+                    fill="currentcolor"
+                    stroke="currentcolor"
                     strokeWidth="4"
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -79,7 +80,7 @@ function Faq() {
                 </div>
               </div>
               {f.open && (
-                <div className=" mt-3 w-full text-left text-base font-normal -tracking-wider text-[#1d1d1f] ">
+                <div className=" mt-3 w-full text-left text-base font-normal -tracking-wider text-[#1d1d1f] dark:text-white/80">
                   {f.answer}
                 </div>
               )}

@@ -26,7 +26,7 @@ function Index() {
   const [show, setShow] = useState(false);
 
   return (
-    <nav class="fixed z-50 w-full shadow-md bg-gray-100 dark:bg-[#010415]">
+    <nav class="fixed z-50 w-full shadow-md bg-white/75 dark:bg-black/75 backdrop-blur-sm">
       <div class="container mx-auto p-6 md:py-6 md:px-20 lg:flex lg:items-center lg:justify-between">
         <div class="flex items-center justify-between">
           <img class="w-10" src={Logo} alt="caboodle logo" />
@@ -80,6 +80,9 @@ function Index() {
           {LinkName.map((l, index) => {
             return <NavLink name={l.name} link={l.link} />;
           })}
+          <div className=" block md:hidden flex justify-center items-center">
+            <Switcher />
+          </div>
         </div>
         <div className="hidden md:block">
           <Switcher />
