@@ -1,4 +1,5 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
 
 function Contact() {
   return (
@@ -17,14 +18,16 @@ function Contact() {
         <section className="max-w-5xl mx-auto">
           <div className="mb-12">
             <div class="text-center text-sm font-medium tracking-tighter text-gray-600 dark:text-gray-300 ">
-              Contact us
+              <Fade bottom>Contact us</Fade>
             </div>
             <h1 class=" text-4xl font-semibold tracking-tighter dark:text-white text-[#1d1d1f] md:text-6xl mb-4 text-center max-w-xl mx-auto">
-              Get an estimate of your account’s growth.
+              <Fade bottom>Get an estimate of your account’s growth.</Fade>
             </h1>
             <p class="text-black/75 dark:text-white/75 font-medium text-md mb-16 max-w-xl mx-auto text-center">
-              Fill out the form below and we will get back to you as soon as we
-              can!
+              <Fade bottom>
+                Fill out the form below and we will get back to you as soon as
+                we can!
+              </Fade>
             </p>
           </div>
           <div className="flex flex-wrap">
@@ -32,26 +35,26 @@ function Contact() {
               <div className="flex flex-wrap">
                 <div className="mb-12 w-full md:w-1/2 lg:w-1/2">
                   <h3 className="mb-2 text-3xl lg:text-4xl font-bold text-[#010415] dark:text-gray-100">
-                    Office
+                    <Fade bottom>Office</Fade>
                   </h3>
                   <p className="text-gray-400 dark:text-gray-200">
-                    India - Dehradun
+                    <Fade bottom>India - Dehradun</Fade>
                   </p>
                   <p className="text-gray-400 dark:text-gray-200">
-                    Haridwar -249205
+                    <Fade bottom> Haridwar -249205</Fade>
                   </p>
                 </div>
                 <div className="mb-12 w-full md:w-1/2">
                   <h3 className="mb-2 text-3xl lg:text-4xl font-bold text-[#010415] dark:text-gray-100">
-                    Contacts
+                    <Fade bottom> Contacts</Fade>
                   </h3>
                   <p className="text-gray-400 dark:text-gray-200">
-                    example@gamil.com
+                    <Fade bottom>example@gamil.com</Fade>
                   </p>
                 </div>
                 <div className="w-full md:w-1/3 lg:w-full">
                   <h3 className="mb-2 text-3xl lg:text-4xl font-bold text-[#010415] dark:text-gray-100">
-                    Socials
+                    <Fade bottom>Socials</Fade>
                   </h3>
                   <div className="flex">
                     <a className="mr-3 w-6" href="/">
@@ -72,89 +75,93 @@ function Contact() {
             </div>
             <div className="w-full lg:w-1/2">
               <div className="max-w-md lg:mx-auto">
-                <form action="">
-                  <div className="mb-4">
-                    <label
-                      className="block tracking-wide text-gray-700 dark:text-gray-200 text-xs font-bold mb-2"
-                      for="grid-first-name"
-                    >
-                      Name
-                    </label>
-                    <input
-                      className="w-full p-4 text-xs font-semibold leading-none bg-white dark:bg-gray-800 text-black dark:text-white
-                     rounded outline-none"
-                      type="text"
-                      placeholder="Shre Yash"
-                    />
-                  </div>
-
-                  <div className="mb-4">
-                    <label
-                      className="block tracking-wide text-gray-700 dark:text-gray-200 text-xs font-bold mb-2"
-                      for="grid-first-name"
-                    >
-                      Work Email<span className="text-red-500">*</span>
-                    </label>
-                    <input
-                      className="w-full p-4 text-xs font-semibold leading-none bg-white dark:bg-gray-800 text-black dark:text-white
-                    rounded outline-none"
-                      type="email"
-                      placeholder="example@exampal.com"
-                    />
-                  </div>
-                  <div className="mb-4">
-                    <label
-                      className="block tracking-wide text-gray-700 dark:text-gray-200 text-xs font-bold mb-2"
-                      for="grid-first-name"
-                    >
-                      Instagram account name
-                      <span className="text-red-500">*</span>
-                    </label>
-                    <input
-                      className="w-full p-4 text-xs font-semibold leading-none bg-white dark:bg-gray-800 text-black dark:text-white
-                    rounded outline-none"
-                      type="text"
-                      placeholder="username"
-                      required
-                    />
-                  </div>
-                  <div className="mb-4">
-                    <label
-                      className="block tracking-wide text-gray-700 dark:text-gray-200 text-xs font-bold mb-2"
-                      for="grid-first-name"
-                    >
-                      Message
-                    </label>
-                    <textarea
-                      className="w-full p-4 text-xs font-semibold leading-none bg-white dark:bg-gray-800 text-black dark:text-white
-                    rounded outline-none"
-                      type="text"
-                      placeholder="Message..."
-                    ></textarea>
-                  </div>
-
-                  <div className="flex justify-between items-center">
-                    <label>
+                <Fade bottom>
+                  <form action="">
+                    <div className="mb-4">
+                      <label
+                        className="block tracking-wide text-gray-700 dark:text-gray-200 text-xs font-bold mb-2"
+                        for="grid-first-name"
+                      >
+                        Name
+                      </label>
                       <input
-                        class="mr-1"
-                        type="checkbox"
-                        name="terms"
-                        value="1"
+                        className="w-full p-4 text-xs font-semibold leading-none bg-white dark:bg-gray-800 text-black dark:text-white
+                     rounded outline-none"
+                        type="text"
+                        placeholder="Shre Yash"
                       />
-                      <span class="text-sm font-semibold dark:text-gray-200">
-                        I agree to the{" "}
-                        <span className="text-blue-500">Terms of Service</span>{" "}
-                        and{" "}
-                        <span className="text-blue-500">Privacy Policy</span>
-                      </span>
-                    </label>
-                  </div>
-                  <div className="flex justify-between items-center mt-4">
-                    <button className="w-full py-2 px-6 rounded-xl bg-gray-900 dark:bg-gray-800 dark:hover:bg-gray-900 hover:bg-gray-800 text-gray-50 font-bold leading-loose transition duration-200">
-                      Get Started
-                    </button>
-                  </div>
-                </form>
+                    </div>
+
+                    <div className="mb-4">
+                      <label
+                        className="block tracking-wide text-gray-700 dark:text-gray-200 text-xs font-bold mb-2"
+                        for="grid-first-name"
+                      >
+                        Work Email<span className="text-red-500">*</span>
+                      </label>
+                      <input
+                        className="w-full p-4 text-xs font-semibold leading-none bg-white dark:bg-gray-800 text-black dark:text-white
+                    rounded outline-none"
+                        type="email"
+                        placeholder="example@exampal.com"
+                      />
+                    </div>
+                    <div className="mb-4">
+                      <label
+                        className="block tracking-wide text-gray-700 dark:text-gray-200 text-xs font-bold mb-2"
+                        for="grid-first-name"
+                      >
+                        Instagram account name
+                        <span className="text-red-500">*</span>
+                      </label>
+                      <input
+                        className="w-full p-4 text-xs font-semibold leading-none bg-white dark:bg-gray-800 text-black dark:text-white
+                    rounded outline-none"
+                        type="text"
+                        placeholder="username"
+                        required
+                      />
+                    </div>
+                    <div className="mb-4">
+                      <label
+                        className="block tracking-wide text-gray-700 dark:text-gray-200 text-xs font-bold mb-2"
+                        for="grid-first-name"
+                      >
+                        Message
+                      </label>
+                      <textarea
+                        className="w-full p-4 text-xs font-semibold leading-none bg-white dark:bg-gray-800 text-black dark:text-white
+                    rounded outline-none"
+                        type="text"
+                        placeholder="Message..."
+                      ></textarea>
+                    </div>
+
+                    <div className="flex justify-between items-center">
+                      <label>
+                        <input
+                          class="mr-1"
+                          type="checkbox"
+                          name="terms"
+                          value="1"
+                        />
+                        <span class="text-sm font-semibold dark:text-gray-200">
+                          I agree to the{" "}
+                          <span className="text-blue-500">
+                            Terms of Service
+                          </span>{" "}
+                          and{" "}
+                          <span className="text-blue-500">Privacy Policy</span>
+                        </span>
+                      </label>
+                    </div>
+                    <div className="flex justify-between items-center mt-4">
+                      <button className="w-full py-2 px-6 rounded-xl bg-gray-900 dark:bg-gray-800 dark:hover:bg-gray-900 hover:bg-gray-800 text-gray-50 font-bold leading-loose transition duration-200">
+                        Get Started
+                      </button>
+                    </div>
+                  </form>
+                </Fade>
               </div>
             </div>
           </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
 
 function Testimonials() {
   return (
@@ -6,15 +7,17 @@ function Testimonials() {
       <section class="bg-white dark:bg-[#010415]">
         <div class="container px-5 py-8 md:py-24 mx-auto">
           <h1 class=" text-4xl font-semibold tracking-tighter dark:text-white text-[#1d1d1f] md:text-6xl mb-4 text-center">
-            Testimonials
+            <Fade bottom>Testimonials</Fade>
           </h1>
-          <p class="text-black/75 dark:text-white/75 font-medium text-md mb-16 max-w-xl mx-auto text-center">
-            We’ve accumulated hundreds of reviews from our website and Fiverr
-            Freelance account over the last half-decade. We work hard to ensure
-            our clients’ satisfaction, especially because Instagram marketing
-            has a bad reputation.
-          </p>
 
+          <p class="text-black/75 dark:text-white/75 font-medium text-md mb-16 max-w-xl mx-auto text-center">
+            <Fade bottom>
+              We’ve accumulated hundreds of reviews from our website and Fiverr
+              Freelance account over the last half-decade. We work hard to
+              ensure our clients’ satisfaction, especially because Instagram
+              marketing has a bad reputation.
+            </Fade>
+          </p>
           <div class="flex flex-wrap -m-4 max-w-5xl mx-auto">
             <div class="p-4 md:w-1/2 w-full">
               <div class="h-full bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 p-8 rounded">
@@ -91,24 +94,28 @@ function Testimonials() {
                   </div>
                 </div>
                 <p class="leading-relaxed mb-6">
-                  I have been a client of Gramglow (Stefan used to run his
-                  Fiverr without the brand name before) for two years now, so I
-                  have a little bit more experience than the average customer.
-                  Whenever there is an issue it gets figured out. Whenever I
-                  mention something it gets addressed and fixed. Their team is
-                  extremely well organized. We started from zero actually and
-                  now two years later hit 19k and are eyeing 20k.
+                  <Fade bottom>
+                    I have been a client of Gramglow (Stefan used to run his
+                    Fiverr without the brand name before) for two years now, so
+                    I have a little bit more experience than the average
+                    customer. Whenever there is an issue it gets figured out.
+                    Whenever I mention something it gets addressed and fixed.
+                    Their team is extremely well organized. We started from zero
+                    actually and now two years later hit 19k and are eyeing 20k.
+                  </Fade>
                 </p>
-                <div class="inline-flex items-center">
-                  <span class="flex-grow flex flex-col">
-                    <span class="title-font font-medium text-gray-900 dark:text-gray-100">
-                      Shre Yash
+                <Fade bottom>
+                  <div class="inline-flex items-center">
+                    <span class="flex-grow flex flex-col">
+                      <span class="title-font font-medium text-gray-900 dark:text-gray-100">
+                        Shre Yash
+                      </span>
+                      <span class="text-gray-500 dark:text-gray-200 text-sm">
+                        UX DEVELOPER
+                      </span>
                     </span>
-                    <span class="text-gray-500 dark:text-gray-200 text-sm">
-                      UX DEVELOPER
-                    </span>
-                  </span>
-                </div>
+                  </div>
+                </Fade>
               </div>
             </div>
             <div class="p-4 md:w-1/2 w-full">
@@ -186,24 +193,28 @@ function Testimonials() {
                   </div>
                 </div>
                 <p class="leading-relaxed mb-6">
-                  I have been a client of Gramglow (Stefan used to run his
-                  Fiverr without the brand name before) for two years now, so I
-                  have a little bit more experience than the average customer.
-                  Whenever there is an issue it gets figured out. Whenever I
-                  mention something it gets addressed and fixed. Their team is
-                  extremely well organized. We started from zero actually and
-                  now two years later hit 19k and are eyeing 20k.
+                  <Fade bottom>
+                    I have been a client of Gramglow (Stefan used to run his
+                    Fiverr without the brand name before) for two years now, so
+                    I have a little bit more experience than the average
+                    customer. Whenever there is an issue it gets figured out.
+                    Whenever I mention something it gets addressed and fixed.
+                    Their team is extremely well organized. We started from zero
+                    actually and now two years later hit 19k and are eyeing 20k.
+                  </Fade>
                 </p>
-                <div class="inline-flex items-center">
-                  <span class="flex-grow flex flex-col">
-                    <span class="title-font font-medium text-gray-900 dark:text-gray-100">
-                      Shre Yash
+                <Fade bottom>
+                  <div class="inline-flex items-center">
+                    <span class="flex-grow flex flex-col">
+                      <span class="title-font font-medium text-gray-900 dark:text-gray-100">
+                        Shre Yash
+                      </span>
+                      <span class="text-gray-500 dark:text-gray-200 text-sm">
+                        UX DEVELOPER
+                      </span>
                     </span>
-                    <span class="text-gray-500 dark:text-gray-200 text-sm">
-                      UX DEVELOPER
-                    </span>
-                  </span>
-                </div>
+                  </div>
+                </Fade>
               </div>
             </div>
           </div>

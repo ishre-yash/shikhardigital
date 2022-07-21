@@ -1,6 +1,6 @@
 import React from "react";
 
-function Hero02() {
+function Hero() {
   return (
     <>
       <section class="relative mx-auto flex max-w-4xl flex-col items-center justify-center pt-28 text-[#010415] dark:text-white md:pt-36 px-4">
@@ -135,4 +135,4 @@ function Hero02() {
   );
 }
 
-export default Hero02;
+export default Hero;
