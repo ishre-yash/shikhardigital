@@ -1,7 +1,7 @@
 import React from "react";
 import Herobg from "../../assets/img/hero-bg.svg";
 
-function HeroSection() {
+function Hero01() {
   return (
     <>
       <div class="w-full h-16"></div>
@@ -47,4 +47,4 @@ function HeroSection() {
   );
 }
 
-export default HeroSection;
+export default Hero01;

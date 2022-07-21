@@ -6,6 +6,6 @@
 @layer base {
   body {
     font-family: "Jost", sans-serif;
-    @apply bg-[#010415];
+    @apply bg-white dark:bg-[#010415];
   }
 }

@@ -1,6 +1,8 @@
 import React from "react";
 import Header from "../layouts/Header";
-import HeroSection from "../components/home/HeroSection";
+// import Hero01 from "../components/home/Hero01";
+import Hero02 from "../components/home/Hero02";
+import Security from "../components/home/Security";
 import Contect from "../components/home/Contact";
 import Testimonials from "../components/home/Testimonials";
 import Faq from "../components/home/Faq";
@@ -11,7 +13,9 @@ function Home() {
   return (
     <>
       <Header />
-      <HeroSection />
+      <Hero02 />
+      {/* <Hero01 /> */}
+      <Security />
       <Testimonials />
       <Contect />
       <Faq />

@@ -4,18 +4,18 @@ function Testimonials() {
   return (
     <>
       <section class="bg-white dark:bg-[#010415]">
-        <div class="container px-5 py-24 mx-auto">
-          <h1 class=" text-4xl font-bold tracking-tighter dark:text-white text-[#1d1d1f] md:text-7xl mb-4 text-center">
+        <div class="container px-5 py-8 md:py-24 mx-auto">
+          <h1 class=" text-4xl font-semibold tracking-tighter dark:text-white text-[#1d1d1f] md:text-6xl mb-4 text-center">
             Testimonials
           </h1>
-          <p class="text-white/75 font-medium text-md mb-16 max-w-xl mx-auto text-center">
+          <p class="text-black/75 dark:text-white/75 font-medium text-md mb-16 max-w-xl mx-auto text-center">
             We’ve accumulated hundreds of reviews from our website and Fiverr
             Freelance account over the last half-decade. We work hard to ensure
             our clients’ satisfaction, especially because Instagram marketing
             has a bad reputation.
           </p>
 
-          <div class="flex flex-wrap -m-4">
+          <div class="flex flex-wrap -m-4 max-w-5xl mx-auto">
             <div class="p-4 md:w-1/2 w-full">
               <div class="h-full bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 p-8 rounded">
                 <div class="flex mb-4">
