@@ -4,8 +4,12 @@
 @tailwind utilities;
 
 @layer base {
+  html{
+    @apply scroll-smooth;
+  }
   body {
     font-family: "Jost", sans-serif;
-    @apply bg-white dark:bg-[#010415];
+    @apply bg-white dark:bg-[#010415] ;
+    /* @apply bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500; */
   }
 }

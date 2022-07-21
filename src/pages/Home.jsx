@@ -7,13 +7,13 @@ import Contect from "../components/home/Contact";
 import Faq from "../components/home/Faq";
 import CallToAction from "../components/home/CallToAction";
 import Footer from "../layouts/Footer";
-// import Hero01 from "../components/home/Hero01";
+import Hero01 from "../components/home/Hero01";
 function Home() {
   return (
     <>
       <Header />
+      <Hero01 />
       <Hero />
-      {/* <Hero01 /> */}
       <Security />
       <Testimonials />
       <Contect />

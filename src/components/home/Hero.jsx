@@ -1,15 +1,17 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
+
 
 function Hero() {
   return (
     <>
-      <section class="relative mx-auto flex max-w-4xl flex-col items-center justify-center pt-28 text-[#010415] dark:text-white md:pt-36 px-4">
-        <div class="text-center text-2xl font-bold tracking-widest md:text-5xl">
-          Growing your Instagram the <br /> right way – organically!
+      <section className="relative mx-auto flex max-w-4xl flex-col items-center justify-center pt-28 text-[#010415] dark:text-white md:pt-36 px-4 select-none" id="home">
+        <div className="text-center text-2xl font-bold tracking-widest md:text-5xl">
+        <Fade bottom>Growing your Instagram the right way – organically!</Fade>
         </div>
-        <div class="mx-8 mt-6 flex max-w-xl flex-col items-center gap-2 md:mx-20">
-          <div class="flex mb-4">
-            <div class="stars__star">
+        <div className="mx-8 mt-6 flex max-w-xl flex-col items-center gap-2 md:mx-20">
+          <div className="flex mb-4">
+            <div className="stars__star">
               <svg
                 width="20"
                 height="19"
@@ -23,7 +25,7 @@ function Hero() {
                 ></path>
               </svg>
             </div>
-            <div class="stars__star">
+            <div className="stars__star">
               <svg
                 width="20"
                 height="19"
@@ -37,7 +39,7 @@ function Hero() {
                 ></path>
               </svg>
             </div>
-            <div class="stars__star">
+            <div className="stars__star">
               <svg
                 width="20"
                 height="19"
@@ -51,7 +53,7 @@ function Hero() {
                 ></path>
               </svg>
             </div>
-            <div class="stars__star">
+            <div className="stars__star">
               <svg
                 width="20"
                 height="19"
@@ -65,7 +67,7 @@ function Hero() {
                 ></path>
               </svg>
             </div>
-            <div class="stars__star">
+            <div className="stars__star">
               <svg
                 width="20"
                 height="19"
@@ -80,23 +82,23 @@ function Hero() {
               </svg>
             </div>
           </div>
-          <p class="mb-4 text-center text-lg font-normal tracking-wide opacity-75 md:text-xl">
-            Trusted with a 4,84/5 rating based on 5900+ Fiverr orders
+          <p className="mb-4 text-center text-lg font-normal tracking-wide opacity-75 md:text-xl">
+          <Fade bottom>Trusted with a 4,84/5 rating based on 5900+ Fiverr orders</Fade>
           </p>
           <div className="space-x-4 hidden md:block">
-            <button className="w-fit py-2 px-6 rounded-full bg-gray-900 dark:bg-gray-800 dark:hover:bg-gray-900 hover:bg-gray-800 text-gray-50 font-bold leading-loose transition duration-200">
-              Book a discovery call
-            </button>
-            <button className="w-fit py-2 px-16 rounded-full bg-gray-900 dark:bg-gray-800 dark:hover:bg-gray-900 hover:bg-gray-800 text-gray-50 font-bold leading-loose transition duration-200">
-              Pricing
-            </button>
+          <Fade bottom><button className="w-fit py-2 px-6 rounded-full bg-gray-900 dark:bg-gray-800 dark:hover:bg-gray-900 hover:bg-gray-800 text-gray-50 font-bold leading-loose transition duration-200">
+            <Fade bottom>Book a discovery call</Fade>
+            </button></Fade>
+            <Fade bottom><button className="w-fit py-2 px-16 rounded-full bg-gray-900 dark:bg-gray-800 dark:hover:bg-gray-900 hover:bg-gray-800 text-gray-50 font-bold leading-loose transition duration-200">
+            <Fade bottom>Pricing</Fade>
+            </button></Fade>
           </div>
         </div>
-        <div class="flex items-center justify-center mt-4 text-[#010415] dark:text-white font-xs">
+        <div className="flex items-center justify-center mt-4 text-[#010415] dark:text-white font-xs">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="#000000"
-            class="fill-current text-[#010415] dark:text-gray-200"
+            className="fill-current text-[#010415] dark:text-gray-200"
             viewBox="0 0 30 30"
             width="15"
             height="15"
@@ -104,11 +106,11 @@ function Hero() {
             <path d="M 26.980469 5.9902344 A 1.0001 1.0001 0 0 0 26.292969 6.2929688 L 11 21.585938 L 4.7070312 15.292969 A 1.0001 1.0001 0 1 0 3.2929688 16.707031 L 10.292969 23.707031 A 1.0001 1.0001 0 0 0 11.707031 23.707031 L 27.707031 7.7070312 A 1.0001 1.0001 0 0 0 26.980469 5.9902344 z" />
           </svg>
 
-          <span class="mr-6 ml-1 text-xs">14 day full refund policy</span>
+          <span className="mr-6 ml-1 text-xs"><Fade bottom>14 day full refund policy</Fade></span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="#000000"
-            class="fill-current text-[#010415] dark:text-gray-200"
+            className="fill-current text-[#010415] dark:text-gray-200"
             viewBox="0 0 30 30"
             width="15"
             height="15"
@@ -116,11 +118,11 @@ function Hero() {
             <path d="M 26.980469 5.9902344 A 1.0001 1.0001 0 0 0 26.292969 6.2929688 L 11 21.585938 L 4.7070312 15.292969 A 1.0001 1.0001 0 1 0 3.2929688 16.707031 L 10.292969 23.707031 A 1.0001 1.0001 0 0 0 11.707031 23.707031 L 27.707031 7.7070312 A 1.0001 1.0001 0 0 0 26.980469 5.9902344 z" />
           </svg>
 
-          <span class="mr-6 ml-1 text-xs">No Software or bots used</span>
+          <span className="mr-6 ml-1 text-xs"><Fade bottom>No Software or bots used</Fade></span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="#000000"
-            class="fill-current text-[#010415] dark:text-gray-200"
+            className="fill-current text-[#010415] dark:text-gray-200"
             viewBox="0 0 30 30"
             width="15"
             height="15"
@@ -128,7 +130,7 @@ function Hero() {
             <path d="M 26.980469 5.9902344 A 1.0001 1.0001 0 0 0 26.292969 6.2929688 L 11 21.585938 L 4.7070312 15.292969 A 1.0001 1.0001 0 1 0 3.2929688 16.707031 L 10.292969 23.707031 A 1.0001 1.0001 0 0 0 11.707031 23.707031 L 27.707031 7.7070312 A 1.0001 1.0001 0 0 0 26.980469 5.9902344 z" />
           </svg>
 
-          <span class="mr-6 ml-1 text-xs">Login optional</span>
+          <span className="mr-6 ml-1 text-xs"><Fade bottom>Login optional</Fade></span>
         </div>
       </section>
     </>

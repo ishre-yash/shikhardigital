@@ -41,8 +41,8 @@ function Faq() {
     setFaq(f);
   };
   return (
-    <section className="container mx-auto flex flex-col items-center justify-center py-6 md:py-28  md:bg-white dark:bg-[#010415] px-1">
-      <h1 className="mb-12 max-w-4xl text-center text-4xl font-bold tracking-tighter dark:text-white text-[#1d1d1f] md:text-7xl">
+    <section className="container mx-auto flex flex-col items-center justify-center py-6 md:py-28  md:bg-white dark:bg-[#010415] px-1" id="faq">
+      <h1 className="mb-12 max-w-4xl text-center text-4xl font-bold tracking-tighter dark:text-white text-[#1d1d1f] md:text-7xl select-none">
         <Fade bottom>FAQs </Fade>
       </h1>
       <section className="w-full rounded-3xl bg-[#f1f4f6] dark:bg-[#141727] p-10 md:max-w-4xl">
@@ -54,7 +54,7 @@ function Faq() {
                 onClick={() => handleOpenClick(index)}
               >
                 <div
-                  className={`text-xl font-medium tracking-tighter ${
+                  className={`text-xl font-medium tracking-tighter select-none ${
                     f.open ? "text-[#007aff]" : "text-[#1d1d1f] dark:text-white"
                   } `}
                 >
@@ -81,7 +81,7 @@ function Faq() {
                 </div>
               </div>
               {f.open && (
-                <div className=" mt-3 w-full text-left text-base font-normal -tracking-wider text-[#1d1d1f] dark:text-white/80">
+                <div className=" mt-3 w-full text-left text-base font-normal -tracking-wider text-[#1d1d1f] dark:text-white/80 select-none">
                   <Fade bottom>{f.answer} </Fade>
                 </div>
               )}

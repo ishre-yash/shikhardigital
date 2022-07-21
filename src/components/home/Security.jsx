@@ -4,7 +4,7 @@ import Fade from "react-reveal/Fade";
 function Security() {
   return (
     <>
-      <section className="container mx-auto bg-white dark:bg-[#010415] ">
+      <section className="container mx-auto bg-white dark:bg-[#010415] select-none" id="security">
         <div className="flex flex-col md:flex-row max-w-4xl mx-auto pt-8 px-4">
           <div className="w-full md:w-[50%]">
             <Fade left>
@@ -15,22 +15,20 @@ function Security() {
             </Fade>
           </div>
           <div className="md:w-[50%] w-full pt-10 text-center md:text-left">
-            <div class="text-xs font-medium tracking-tighter text-gray-600 dark:text-gray-300 ">
+            <div className="text-xs font-medium tracking-tighter text-gray-600 dark:text-gray-300 ">
               <Fade bottom>SECURITY</Fade>
             </div>
-            <h1 class="mb-2 text-4xl font-bold tracking-tighter text-[#1d1d1f] dark:text-white md:text-4xl w-full md:w-[75%]">
+            <h1 className="mb-2 text-4xl font-bold tracking-tighter text-[#1d1d1f] dark:text-white md:text-4xl w-full md:w-[75%] select-none">
               <Fade bottom>Service Security</Fade>
             </h1>
-            <p class=" text-md font-normal tracking-tighter text-gray-600 dark:text-gray-300 mb-6 w-full md:w-[75%]">
+            <p className=" text-md font-normal tracking-tighter text-gray-600 dark:text-gray-300 mb-6 w-full md:w-[75%] select-none">
               <Fade bottom>
                 Our top concern is to keep your account safe. Before we adopt
                 any of our growth techniques or login processes, we put them
                 through a thorough testing process, and we continue to test them
                 on a regular basis.
-              </Fade>
               <br />
               <br />
-              <Fade bottom>
                 Unlike many other services, we have updated our system to be
                 completely compliant with Instagram’s requirements and not cause
                 any restrictions as their security measures for 3rd party
@@ -40,7 +38,7 @@ function Security() {
               </Fade>
             </p>
             <Fade bottom>
-              <button className="w-fit py-2 px-6 rounded-xl bg-gray-900 dark:bg-gray-800 dark:hover:bg-gray-900 hover:bg-gray-800 text-gray-50 font-bold leading-loose transition duration-200">
+              <button className="w-fit py-2 px-6 rounded-xl bg-gray-900 dark:bg-gray-800 dark:hover:bg-gray-900 hover:bg-gray-800 text-gray-50 font-bold leading-loose transition duration-200 select-none">
                 <Fade bottom>To Security</Fade>
               </button>
             </Fade>
@@ -48,13 +46,13 @@ function Security() {
         </div>
         <div className="flex flex-col md:flex-row max-w-4xl mx-auto pt-8 px-4">
           <div className="md:w-[50%] w-full pt-10 text-center md:text-left ">
-            <div class="text-xs font-medium tracking-tighter text-gray-600 dark:text-gray-300 ">
+            <div className="text-xs font-medium tracking-tighter text-gray-600 dark:text-gray-300 ">
               <Fade bottom>BLOCK PREVENTION</Fade>
             </div>
-            <h1 class="mb-2 w-full md:w-[75%] text-4xl font-bold tracking-tighter text-[#1d1d1f] dark:text-white md:text-4xl">
+            <h1 className="mb-2 w-full md:w-[75%] text-4xl font-bold tracking-tighter text-[#1d1d1f] dark:text-white md:text-4xl">
               <Fade bottom>Proxy IP’s & GPS Spoofing</Fade>
             </h1>
-            <p class=" text-md font-normal tracking-tighter text-gray-600 dark:text-gray-300 mb-6 w-full md:w-[75%]">
+            <p className=" text-md font-normal tracking-tighter text-gray-600 dark:text-gray-300 mb-6 w-full md:w-[75%]">
               <Fade bottom>
                 When working on your account, we make sure that each device and
                 client account has a different IP address by using dedicated IP
@@ -63,10 +61,8 @@ function Security() {
                 spoofing. We do this to prevent blocks because Instagram may
                 decide to restrict a device if it determines that it is engaging
                 with your account from an entirely different location.
-              </Fade>
               <br />
               <br />
-              <Fade bottom>
                 Our security precautions make sure we maintain a secure and
                 efficient workflow on your account without blocks.
               </Fade>

@@ -6,8 +6,8 @@ function NavLink({ name, link }) {
   return (
     <>
       <a
-        class="mt-4 rounded-3xl bg-transparent p-2 pl-4 transition duration-300 ease-in-out dark:hover:bg-white hover:bg-[#010415] hover:text-white dark:hover:text-black md:p-1 md:pl-0 lg:px-6"
-        href="#Home"
+        className="mt-4 rounded-3xl bg-transparent p-2 pl-4 transition duration-300 ease-in-out dark:hover:bg-white hover:bg-[#010415] hover:text-white dark:hover:text-black md:p-1 md:pl-0 lg:px-6"
+        href={link}
       >
         {name}
       </a>
@@ -18,35 +18,35 @@ function NavLink({ name, link }) {
 function Index() {
   const [LinkName] = useState([
     { name: "Home", link: "#home" },
-    { name: "Services", link: "#services" },
-    { name: "Blog", link: "#Blog" },
-    { name: "Testimonials", link: "#Testimonials" },
-    { name: "Contact Us", link: "#Contact Us" },
+    { name: "Security", link: "#security" },
+    { name: "Testimonials", link: "#testimonials" },
+    { name: "Contact Us", link: "#contact" },
+    { name: "Faq", link: "#faq" },
   ]);
   const [show, setShow] = useState(false);
 
   return (
-    <nav class="fixed z-50 w-full shadow-md bg-white/75 dark:bg-black/75 backdrop-blur-sm">
-      <div class="container mx-auto p-6 md:py-6 md:px-20 lg:flex lg:items-center lg:justify-between">
-        <div class="flex items-center justify-between">
-          <img class="w-10" src={Logo} alt="caboodle logo" />
+    <nav className="fixed z-50 w-full shadow-md bg-white/75 dark:bg-black/75 backdrop-blur-sm">
+      <div className="container mx-auto p-6 md:py-6 md:px-20 lg:flex lg:items-center lg:justify-between">
+        <div className="flex items-center justify-between">
+          <img className="w-10" src={Logo} alt="caboodle logo" />
 
           {/* <!-- Mobile menu button --> */}
-          <div class="flex lg:hidden" onClick={() => setShow(!show)}>
+          <div className="flex lg:hidden" onClick={() => setShow(!show)}>
             {!show ? (
               <button
                 type="button"
-                class="rounded bg-[#1f57d3] p-1 px-2 text-white shadow-xl"
+                className="rounded bg-[#1f57d3] p-1 px-2 text-white shadow-xl"
                 aria-label="toggle menu"
                 id="menu-button"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
-                  class="h-6 w-6 fill-current"
+                  className="h-6 w-6 fill-current"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
                   ></path>
                 </svg>
@@ -54,14 +54,14 @@ function Index() {
             ) : (
               <button
                 type="button"
-                class="rounded bg-[#1f57d3] p-1 px-2 text-white shadow-xl"
+                className="rounded bg-[#1f57d3] p-1 px-2 text-white shadow-xl"
                 aria-label="toggle menu"
                 id="menu-button"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
-                  class="h-6 w-6 fill-current"
+                  className="h-6 w-6 fill-current"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 >
@@ -72,13 +72,13 @@ function Index() {
           </div>
         </div>
         <div
-          class={`mt-4 flex ${
+          className={`mt-4 flex ${
             show ? "block" : "hidden"
           } flex-col space-y-4 space-x-0 text-base font-medium capitalize dark:text-white text-[#010415] lg:-mx-6 lg:mt-0 lg:block lg:flex-row lg:space-y-0 md:space-x-2`}
           id="menu"
         >
           {LinkName.map((l, index) => {
-            return <NavLink name={l.name} link={l.link} />;
+            return <NavLink name={l.name} link={l.link} key={index} />;
           })}
           <div className=" block md:hidden flex justify-center items-center">
             <Switcher />

@@ -4,13 +4,13 @@ import Fade from "react-reveal/Fade";
 function Testimonials() {
   return (
     <>
-      <section class="bg-white dark:bg-[#010415]">
-        <div class="container px-5 py-8 md:py-24 mx-auto">
-          <h1 class=" text-4xl font-semibold tracking-tighter dark:text-white text-[#1d1d1f] md:text-6xl mb-4 text-center">
+      <section className="bg-white dark:bg-[#010415]" id="testimonials">
+        <div className="container px-5 py-8 md:py-24 mx-auto">
+          <h1 className=" text-4xl font-semibold tracking-tighter dark:text-white text-[#1d1d1f] md:text-6xl mb-4 text-center select-none">
             <Fade bottom>Testimonials</Fade>
           </h1>
 
-          <p class="text-black/75 dark:text-white/75 font-medium text-md mb-16 max-w-xl mx-auto text-center">
+          <p className="text-black/75 dark:text-white/75 font-medium text-md mb-16 max-w-xl mx-auto text-center select-none">
             <Fade bottom>
               We’ve accumulated hundreds of reviews from our website and Fiverr
               Freelance account over the last half-decade. We work hard to
@@ -18,11 +18,11 @@ function Testimonials() {
               marketing has a bad reputation.
             </Fade>
           </p>
-          <div class="flex flex-wrap -m-4 max-w-5xl mx-auto">
-            <div class="p-4 md:w-1/2 w-full">
-              <div class="h-full bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 p-8 rounded">
-                <div class="flex mb-4">
-                  <div class="stars__star">
+          <div className="flex flex-wrap -m-4 max-w-5xl mx-auto">
+            <div className="p-4 md:w-1/2 w-full">
+              <div className="h-full bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 p-8 rounded">
+                <div className="flex mb-4">
+                  <div className="stars__star">
                     <svg
                       width="20"
                       height="19"
@@ -36,7 +36,7 @@ function Testimonials() {
                       ></path>
                     </svg>
                   </div>
-                  <div class="stars__star">
+                  <div className="stars__star">
                     <svg
                       width="20"
                       height="19"
@@ -50,7 +50,7 @@ function Testimonials() {
                       ></path>
                     </svg>
                   </div>
-                  <div class="stars__star">
+                  <div className="stars__star">
                     <svg
                       width="20"
                       height="19"
@@ -64,7 +64,7 @@ function Testimonials() {
                       ></path>
                     </svg>
                   </div>
-                  <div class="stars__star">
+                  <div className="stars__star">
                     <svg
                       width="20"
                       height="19"
@@ -78,7 +78,7 @@ function Testimonials() {
                       ></path>
                     </svg>
                   </div>
-                  <div class="stars__star">
+                  <div className="stars__star">
                     <svg
                       width="20"
                       height="19"
@@ -93,7 +93,7 @@ function Testimonials() {
                     </svg>
                   </div>
                 </div>
-                <p class="leading-relaxed mb-6">
+                <p className="leading-relaxed mb-6 select-none">
                   <Fade bottom>
                     I have been a client of Gramglow (Stefan used to run his
                     Fiverr without the brand name before) for two years now, so
@@ -105,12 +105,12 @@ function Testimonials() {
                   </Fade>
                 </p>
                 <Fade bottom>
-                  <div class="inline-flex items-center">
-                    <span class="flex-grow flex flex-col">
-                      <span class="title-font font-medium text-gray-900 dark:text-gray-100">
+                  <div className="inline-flex items-center">
+                    <span className="flex-grow flex flex-col">
+                      <span className="title-font font-medium text-gray-900 dark:text-gray-100">
                         Shre Yash
                       </span>
-                      <span class="text-gray-500 dark:text-gray-200 text-sm">
+                      <span className="text-gray-500 dark:text-gray-200 text-sm">
                         UX DEVELOPER
                       </span>
                     </span>
@@ -118,10 +118,10 @@ function Testimonials() {
                 </Fade>
               </div>
             </div>
-            <div class="p-4 md:w-1/2 w-full">
-              <div class="h-full bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 p-8 rounded">
-                <div class="flex mb-4">
-                  <div class="stars__star">
+            <div className="p-4 md:w-1/2 w-full">
+              <div className="h-full bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 p-8 rounded">
+                <div className="flex mb-4">
+                  <div className="stars__star">
                     <svg
                       width="20"
                       height="19"
@@ -135,7 +135,7 @@ function Testimonials() {
                       ></path>
                     </svg>
                   </div>
-                  <div class="stars__star">
+                  <div className="stars__star">
                     <svg
                       width="20"
                       height="19"
@@ -149,7 +149,7 @@ function Testimonials() {
                       ></path>
                     </svg>
                   </div>
-                  <div class="stars__star">
+                  <div className="stars__star">
                     <svg
                       width="20"
                       height="19"
@@ -163,7 +163,7 @@ function Testimonials() {
                       ></path>
                     </svg>
                   </div>
-                  <div class="stars__star">
+                  <div className="stars__star">
                     <svg
                       width="20"
                       height="19"
@@ -177,7 +177,7 @@ function Testimonials() {
                       ></path>
                     </svg>
                   </div>
-                  <div class="stars__star">
+                  <div className="stars__star">
                     <svg
                       width="20"
                       height="19"
@@ -192,7 +192,7 @@ function Testimonials() {
                     </svg>
                   </div>
                 </div>
-                <p class="leading-relaxed mb-6">
+                <p className="leading-relaxed mb-6 select-none">
                   <Fade bottom>
                     I have been a client of Gramglow (Stefan used to run his
                     Fiverr without the brand name before) for two years now, so
@@ -204,12 +204,12 @@ function Testimonials() {
                   </Fade>
                 </p>
                 <Fade bottom>
-                  <div class="inline-flex items-center">
-                    <span class="flex-grow flex flex-col">
-                      <span class="title-font font-medium text-gray-900 dark:text-gray-100">
+                  <div className="inline-flex items-center">
+                    <span className="flex-grow flex flex-col">
+                      <span className="title-font font-medium text-gray-900 dark:text-gray-100">
                         Shre Yash
                       </span>
-                      <span class="text-gray-500 dark:text-gray-200 text-sm">
+                      <span className="text-gray-500 dark:text-gray-200 text-sm">
                         UX DEVELOPER
                       </span>
                     </span>
