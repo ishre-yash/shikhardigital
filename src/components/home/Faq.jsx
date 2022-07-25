@@ -41,10 +41,13 @@ function Faq() {
     setFaq(f);
   };
   return (
-    <section className="container mx-auto flex flex-col items-center justify-center py-6 md:py-28  md:bg-white dark:bg-[#010415] px-1" id="faq">
-      <h1 className="mb-12 max-w-4xl text-center text-4xl font-bold tracking-tighter dark:text-white text-[#1d1d1f] md:text-7xl select-none">
+    <section
+      className="container mx-auto flex flex-col items-center justify-center py-6 md:py-28  md:bg-white dark:bg-[#010415] px-1"
+      id="faq"
+    >
+      <h2 className="mb-12 max-w-4xl text-center text-4xl font-bold tracking-tighter dark:text-white text-[#1d1d1f] md:text-7xl select-none">
         <Fade bottom>FAQs </Fade>
-      </h1>
+      </h2>
       <section className="w-full rounded-3xl bg-[#f1f4f6] dark:bg-[#141727] p-10 md:max-w-4xl">
         {faq.map((f, index) => {
           return (

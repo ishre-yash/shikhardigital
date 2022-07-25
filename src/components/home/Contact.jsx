@@ -20,9 +20,9 @@ function Contact() {
             <div className="text-center text-sm font-medium tracking-tighter text-gray-600 dark:text-gray-300 ">
               <Fade bottom>Contact us</Fade>
             </div>
-            <h1 className=" text-4xl font-semibold tracking-tighter dark:text-white text-[#1d1d1f] md:text-6xl mb-4 text-center max-w-xl mx-auto">
+            <h2 className=" text-4xl font-semibold tracking-tighter dark:text-white text-[#1d1d1f] md:text-6xl mb-4 text-center max-w-xl mx-auto">
               <Fade bottom>Get an estimate of your account’s growth.</Fade>
-            </h1>
+            </h2>
             <p className="text-black/75 dark:text-white/75 font-medium text-md mb-16 max-w-xl mx-auto text-center">
               <Fade bottom>
                 Fill out the form below and we will get back to you as soon as
@@ -58,16 +58,20 @@ function Contact() {
                   </h3>
                   <div className="flex">
                     <a className="mr-3 w-6" href="/">
-                    <Fade bottom><img
-                        src="https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/512px-Facebook_f_logo_%282021%29.svg.png?20210818083032"
-                        alt=""
-                      /></Fade>
+                      <Fade bottom>
+                        <img
+                          src="https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/512px-Facebook_f_logo_%282021%29.svg.png?20210818083032"
+                          alt=""
+                        />
+                      </Fade>
                     </a>
                     <a className="mr-3 w-6" href="/">
-                    <Fade bottom><img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/2491px-Twitter-logo.svg.png"
-                        alt=""
-                      /></Fade>
+                      <Fade bottom>
+                        <img
+                          src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/2491px-Twitter-logo.svg.png"
+                          alt=""
+                        />
+                      </Fade>
                     </a>
                   </div>
                 </div>
@@ -169,7 +173,6 @@ function Contact() {
       </div>
       <div className="bg-white dark:bg-[#010415]">
         <svg
-          data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 1200 120"
           preserveAspectRatio="none"

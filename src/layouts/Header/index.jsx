@@ -19,7 +19,7 @@ function Index() {
   const [LinkName] = useState([
     { name: "Home", link: "#home" },
     { name: "Security", link: "#security" },
-    { name: "Testimonials", link: "#testimonials" },
+    { name: "Pricing", link: "#pricing" },
     { name: "Contact Us", link: "#contact" },
     { name: "Faq", link: "#faq" },
   ]);

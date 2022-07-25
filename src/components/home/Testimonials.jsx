@@ -6,9 +6,9 @@ function Testimonials() {
     <>
       <section className="bg-white dark:bg-[#010415]" id="testimonials">
         <div className="container px-5 py-8 md:py-24 mx-auto">
-          <h1 className=" text-4xl font-semibold tracking-tighter dark:text-white text-[#1d1d1f] md:text-6xl mb-4 text-center select-none">
+          <h2 className=" text-4xl font-semibold tracking-tighter dark:text-white text-[#1d1d1f] md:text-6xl mb-4 text-center select-none">
             <Fade bottom>Testimonials</Fade>
-          </h1>
+          </h2>
 
           <p className="text-black/75 dark:text-white/75 font-medium text-md mb-16 max-w-xl mx-auto text-center select-none">
             <Fade bottom>

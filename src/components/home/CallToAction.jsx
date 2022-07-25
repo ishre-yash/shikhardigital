@@ -27,7 +27,7 @@ function CallToAction() {
           </p>
           <div className="space-x-2 flex items-center justify-center">
             <Fade bottom>
-              <button className="w-fit py-2 mt-6 px-16 rounded-full bg-gray-900 dark:bg-gray-800 dark:hover:bg-gray-900 hover:bg-gray-800 text-gray-50 font-bold leading-loose cursor-pointer select-none">
+              <button className="w-fit py-2 mt-6 px-16 rounded-full bg-gray-900 hover:bg-gray-800 text-gray-50 font-bold leading-loose cursor-pointer select-none">
                 <Fade bottom>Pricing</Fade>
               </button>
             </Fade>
